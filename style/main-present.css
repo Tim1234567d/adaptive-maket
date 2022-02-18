@@ -1,0 +1,37 @@
+.main-present{
+    height: 823px;
+    background: url("../assets/main__image.png");
+    background-repeat: no-repeat;
+}
+.main-present__card{
+    max-width: 577px;
+    min-height: 328px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: -4px 4px 20px rgba(68, 33, 33, 0.25);
+    margin-top: 267px;
+    margin-left: 741px;
+    display: grid;
+
+}
+.main-present__title{
+    max-width: 454px;
+    min-height: 80px;
+    margin-top: 56px;
+    margin-left: 62px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 1.5px;
+}
+.main-present__text{
+    max-width: 372px;
+    min-height: 96px;
+    margin-left: 62px;
+    margin-top: -26px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0.6px;
+}
+

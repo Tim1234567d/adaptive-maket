@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("./reset.css");
+@import url("./header.css");
+@import url("./main-present.css");
+@import url("./content.css");
+@import url("./footer.css");
+@import url("./media__672px.css");
+:root{
+    --container: 1440px;
+    --adaptive: 375px;
+}
+*{
+    font-family: "Lato";
+}
+.main{
+    max-width: var(--container);
+    display: grid;
+ 
+}
